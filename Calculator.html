@@ -1,0 +1,60 @@
+<!-- Chen Parnasa,    ID: 316558196
+   Racheli Verechzon, ID: 305710071
+======================================
+       HTML File
+====================================== -->
+
+<!DOCTYPE html5>
+<html>
+ <head>
+   <title>Calculator</title>
+   <link href="Calculator.css" type="text/css" rel="stylesheet" /> <!-- link to css file -->
+ </head>
+
+ <body onload="loadPage()">
+ <script type="text/javascript"  src="Calculator.js"> </script> <!-- link to javascript file -->
+
+   <div class="main">
+     <div class="box">
+       <form name="form2">
+           <input id="textviewHidden" name="textviewHidden" value="">	 <!-- screen view for programmer -->
+       </form>
+       <form name="form">
+           <input id="textview" name="textview" value="">	<!-- screen view for user -->
+       </form>
+
+       <table>
+           <tr> <!-- operators buttons -->
+              <td><input class="buttonOp" type="button" id="bntPlus"  value="+"></td>
+              <td><input class="buttonOp" type="button" id="bntMinus" value="-"></td>
+              <td><input class="buttonOp" type="button" id="bntTimes" value="&times"></td>
+              <td><input class="buttonOp" type="button" id="bntDivide"value="&divide"></td>
+           </tr>
+           <tr> <!-- numbers and equal buttons -->
+              <td><input class="buttonNum" type="button" id="bnt7" value="7"></td>
+              <td><input class="buttonNum" type="button" id="bnt8" value="8"> </td>
+              <td><input class="buttonNum" type="button" id="bnt9" value="9"></td>
+              <td rowspan="10" ><input class="button1" type="button" id="bntEqual" value="="></td>
+           </tr>
+           <tr> <!-- numbers buttons -->
+              <td><input class="buttonNum" type="button" id="bnt4" value="4"></td>
+              <td><input class="buttonNum" type="button" id="bnt5" value="5"></td>
+              <td><input class="buttonNum" type="button" id="bnt6" value="6"></td>
+
+           </tr>
+           <tr> <!-- numbers buttons -->
+              <td><input class="buttonNum" type="button" id="bnt1" value="1"></td>
+              <td><input class="buttonNum" type="button"id="bnt2"  value="2"></td>
+              <td><input class="buttonNum" type="button" id="bnt3" value="3"></td>
+           </tr>
+           <tr> <!-- bottom buttons -->
+              <td><input class="button" type="button" id="bnt0"   value="0"</td>
+              <td><input class="button" type="button" id="bntDot" value="."></td>
+              <td><input class="button" type="button"id="AC"      value="AC"></td>
+           </tr>
+         </table>
+
+        </div>
+       </div>
+ </body>
+</html>
